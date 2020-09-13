@@ -6,6 +6,7 @@ def my_collect(list)
   while i < list.length
   block_given?
   new_collection.push yield(list[i])
+  i += 1 
     student.split(" ").first 
   end 
 end 
