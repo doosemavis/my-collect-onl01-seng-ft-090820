@@ -1,12 +1,13 @@
 
 def my_collect(list)
-  i = 0 
-  new_collection = []
+    i = 0 
+    new_collection = []
   
-  while i < list.length
-    block_given?
-    new_collection.push yield(list[i])
-    i += 1 
-  end 
+    while i < list.length
+      block_given?
+      new_collection.push yield(list[i])
+      i += 1 
+    end
+  result
 end 
 
