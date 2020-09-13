@@ -8,6 +8,6 @@ def my_collect(list)
     new_collection.push yield(list[i])
     i += 1 
   end
-
+new_collection
 end 
 
