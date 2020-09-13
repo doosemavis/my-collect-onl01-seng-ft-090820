@@ -4,7 +4,8 @@ def my_collect(list)
   new_collection = []
   
   while i < list.length
-  my_collect(students) do |student|
+  block_given?
+  new_collection.push yield(list[i])
     student.split(" ").first 
   end 
 end 
