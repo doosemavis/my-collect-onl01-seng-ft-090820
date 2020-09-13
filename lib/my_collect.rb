@@ -1,5 +1,5 @@
-array = ["Time Jones", "Tom Smith", "Jim Campagno"]
+list = ["Time Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect
+def my_collect(list)
 end 
 
