@@ -1,9 +1,9 @@
-list_of_students = ["Time Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect(list_of_students)
+def my_collect(list)
   i = 0 
   new_collection = []
-  while i < collection.length
+  
+  while i < list.length
   my_collect(students) do |student|
     student.split(" ").first 
   end 
