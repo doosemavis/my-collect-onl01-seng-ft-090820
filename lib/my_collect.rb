@@ -4,10 +4,9 @@ def my_collect(list)
   new_collection = []
   
   while i < list.length
-  block_given?
-  new_collection.push yield(list[i])
-  i += 1 
-    student.split(" ").first 
+    block_given?
+    new_collection.push yield(list[i])
+    i += 1 
   end 
 end 
 
