@@ -1,4 +1,5 @@
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |lang|
-  lang.upcase
-end
+list = ["Time Jones", "Tom Smith", "Jim Campagno"]
+
+def my_collect(list)
+end 
+
